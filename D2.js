@@ -47,7 +47,7 @@ console.log(typeof name)
 let numero1= 12
 let numero2= 20
 let somma= numero1 += numero2
-consol.log(somma)
+console.log(somma)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -67,7 +67,7 @@ let name="Iacobelli"
 
 const nominativo="Gino"
 nominativo="Francesco"
-consol.log(nominativo)  /* */ 
+console.log(nominativo)  /* */ 
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -75,7 +75,7 @@ consol.log(nominativo)  /* */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let sottrazione= 4-=x
-consol.log(sottrazione)
+console.log(sottrazione)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
