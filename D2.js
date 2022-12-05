@@ -37,7 +37,7 @@ let n6=
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name="Palma"
-console.log(typeof=name)
+console.log(typeof name)
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
