@@ -47,26 +47,35 @@ let name="Palma"
 let numero1= 12
 let numero2= 20
 let somma= numero1 += numero2
-console.log(somma)
+consol.log(somma)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x=12
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+let name="Iacobelli"
+
+const nominativo="Gino"
+nominativo="Francesco"
+consol.log(nominativo)
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let sottrazione= 4-=x
+consol.log(sottrazione)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -75,3 +84,7 @@ console.log(somma)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+name1="john"
+name2="John"
+name1!==name2 /*verifica che name1 sia DIVERSO da name2 --> True*/
+name1===name2 /*verifica che name1 sia DIVERSO da name2 --> False*/
