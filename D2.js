@@ -14,68 +14,70 @@ REGOLE
 
 /*Number: il valore assegnato alla variabile è un numero. La variabile è come un contenitore al suo interno c'è un numero.
 Esempio:*/
-let n1=6 /* Significa che il contenitore chiamato n1 contiene un numero. */
+let n1 = 6; /* Significa che il contenitore chiamato n1 contiene un numero. */
 
 /*String: il valore assegnato alla variabile è una sequenza di caratteri/lettere. */
-let n2="Badoglio" /*Il contenitore n2 contiene delle lettere. Lo si riconosce dalla presenza delle virgolette /*
+let n2 =
+  "Badoglio"; /*Il contenitore n2 contiene delle lettere. Lo si riconosce dalla presenza delle virgolette /*
 
 /*Boolean: il valore assegnato alla variabile è di tipo logico e può essere vero (true) o falso (false) . */
-let n3=true /*Il contenitore n3 contiene un'informazione che può essere vera o falsa. */
+let n3 = true; /*Il contenitore n3 contiene un'informazione che può essere vera o falsa. */
 
 /* Date: il valore assegnato alla variabile è una data (es.una data di nascita) */
-let n4=1992
+let n4 = 1992;
 
 /* Null: il valore assegnato alla variabile è vuoto, semplicemente non c'è.  */
-let n5 /*Il contenitore n5 esiste ma è vuoto.*/
+let n5 = null; /*Il contenitore n5 esiste ma è vuoto.*/
 
-/*Undefined: Il contenitore esiste ma il suo contenuto contiene qualcosa che non è stato definito*/ 
-let n6= 
+/*Undefined: Il contenitore esiste ma il suo contenuto contiene qualcosa che non è stato definito*/
+let n6;
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name="Palma"
-console.log(typeof name)
+let name = "Palma";
+console.log(typeof name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let numero1= 12
-let numero2= 20
-let somma= numero1 += numero2
-console.log(somma)
+let numero1 = 12;
+let numero2 = 20;
+let somma = (numero1 += numero2);
+console.log(somma);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let x=12
+let x = 12;
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name="Iacobelli"
+name = "Iacobelli";
 
-const nominativo="Gino"
-nominativo="Francesco"
-console.log(nominativo)  /* */ 
+console.log(name);
+
+const nominativo = "Gino";
+/* nominativo = "Francesco" */
+console.log(nominativo); /*TypeError: Assignment to constant variable.*/
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let sottrazione= 4-=x
-console.log(sottrazione)
+let sottrazione = 4 - x;
+console.log(sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -84,9 +86,13 @@ console.log(sottrazione)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-name1="john"
-name2="John"
-console.log(name1!==name2) /*verifica che name1 sia DIVERSO da name2 --> True*/
-console.log(name1!==name2) /*verifica che name1 sia DIVERSO da name2 --> False*/
+name1 = "john";
+name2 = "John";
+console.log(name1 !== name2);
 
-console.log(name1.lowercase===name2.lowercase)
+/*verifica che name1 sia DIVERSO da name2 --> True */
+console.log(
+  name1 === name2
+); /*verifica che name1 sia DIVERSO da name2 --> False */
+
+console.log(name1.lowercase === name2.lowercase); /* --> True */
