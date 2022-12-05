@@ -23,14 +23,11 @@ let n2 =
 /*Boolean: il valore assegnato alla variabile è di tipo logico e può essere vero (true) o falso (false) . */
 let n3 = true; /*Il contenitore n3 contiene un'informazione che può essere vera o falsa. */
 
-/* Date: il valore assegnato alla variabile è una data (es.una data di nascita) */
-let n4 = 1992;
-
 /* Null: il valore assegnato alla variabile è vuoto, semplicemente non c'è.  */
-let n5 = null; /*Il contenitore n5 esiste ma è vuoto.*/
+let n4 = null; /*Il contenitore n5 esiste ma è vuoto.*/
 
 /*Undefined: Il contenitore esiste ma il suo contenuto contiene qualcosa che non è stato definito*/
-let n6;
+let n5;
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
