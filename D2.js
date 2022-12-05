@@ -92,4 +92,4 @@ console.log(
   name1 === name2
 ); /*verifica che name1 sia DIVERSO da name2 --> False */
 
-console.log(name1.lowercase === name2.lowercase); /* --> True */
+console.log(name1.lowercase() === name2.lowercase()); /* --> True */
