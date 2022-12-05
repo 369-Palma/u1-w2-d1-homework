@@ -37,7 +37,7 @@ let n6=
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name="Palma"
-
+console.log(typeof=name)
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -67,7 +67,7 @@ let name="Iacobelli"
 
 const nominativo="Gino"
 nominativo="Francesco"
-consol.log(nominativo)
+consol.log(nominativo)  /* */ 
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -86,5 +86,7 @@ consol.log(sottrazione)
 /* SCRIVI QUI LA TUA RISPOSTA */
 name1="john"
 name2="John"
-name1!==name2 /*verifica che name1 sia DIVERSO da name2 --> True*/
-name1===name2 /*verifica che name1 sia DIVERSO da name2 --> False*/
+console.log(name1!==name2) /*verifica che name1 sia DIVERSO da name2 --> True*/
+console.log(name1!==name2) /*verifica che name1 sia DIVERSO da name2 --> False*/
+
+console.log(name1.lowercase===name2.lowercase)
